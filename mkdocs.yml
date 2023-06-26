@@ -1,0 +1,59 @@
+site_name: sasakiy84.net
+site_url: https://blog.sasakiy84.net/
+
+markdown_extensions:
+  - admonition
+  - nl2br
+  - pymdownx.magiclink
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+theme:
+  name: material
+  language: ja
+  logo: img/logo.png
+  favicon: img/logo.png
+  font:
+    text: "Noto Serif JP"
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - content.code.copy
+  palette:
+    schema: slate
+    primary: white
+  extra:
+    analytics:
+      provider: google
+      property: G-FPY99RM67V
+    search:
+      language: "jp"
+
+  extra_javascript:
+    - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js
+    - javascripts/highlights.js
+  extra_css:
+    - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css
+
+nav:
+  - index.md
+  - tags.md
+
+plugins:
+  - search
+  - tags:
+      tags_file: tags.md
+  # https://liang2kl.codes/mkdocs-blogging-plugin/
+  - blogging:
+      dirs:
+        - articles/
+      size: 10
+      locale: ja_JP
+      meta_time_format: "%Y-%m-%d"
