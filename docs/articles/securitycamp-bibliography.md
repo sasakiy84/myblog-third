@@ -469,6 +469,7 @@ tags:
 - [今更セキュリティ・キャンプ全国大会2018（Cコンパイラ自作ゼミ）参加記 - uoo38’s blog](https://uoo38.hatenablog.com/entry/2018/12/18/223206)
 - [セキュリティキャンプ2018応募課題 - 過密です](https://kam1tsur3.hatenablog.com/entry/2018/06/14/155349)
 - [セキュリティキャンプ 全国大会2018に参加しました - 過密です](https://kam1tsur3.hatenablog.com/entry/2018/08/21/200708)
+- [30. セルフホストできるCコンパイラの作り方を夏休みの特別授業で教えた話 (hikalium)](https://turingcomplete.fm/30)
 
 ### 関連資料
 - [[SecurityCamp2018] Talk of LoRaWAN's Security - Speaker Deck](https://speakerdeck.com/himitu23/securitycamp2018-talk-of-lorawans-security)
