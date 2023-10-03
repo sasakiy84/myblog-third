@@ -31,6 +31,10 @@ tags:
 - [セキュリティキャンプ全国大会卒業者の応募用紙の情報が集まる魔法のスプレッドシート2017 - Google スプレッドシート](https://docs.google.com/spreadsheets/d/1mcanYZU0518XpOqy-ikkWOPfOODOD76zwAiwNkZCngc/edit#gid=0)
 - [seccamp.jp](https://seccamp.jp/)
 
+# 2023 山梨
+### 参加ブログ
+- [セキュリティ・ミニキャンプ in 山梨 2023 参加記 - hatomato09’s blog](https://hatomato09.hatenablog.com/entry/2023/09/26/104541)
+
 ## 2023 新潟
 ### 講義資料
 - [マイナンバーカードの暗号技術とセキュリティ - Speaker Deck](https://speakerdeck.com/tex2e/secminicamp2023-mynumber)
@@ -292,6 +296,7 @@ tags:
 - [セキュキャンチューター体験記　in オンライン　グループワーク編 - yoshimi.'s Diary](https://yoshistl.hatenablog.com/entry/2020/12/15/200034)
 - [セキュリティキャンプ全国大会2020参加記 - lufeの備忘録](https://lufe.hatenablog.com/entry/2021/10/16/022657)
 - [AWS環境における実践的なインシデントレスポンス演習の作成 | 調査研究/ブログ | 三井物産セキュアディレクション株式会社](https://www.mbsd.jp/research/20201217.html)
+- [【AdC28日目】セキュリティキャンプ全国大会2020に参加しました | 東京工業大学デジタル創作同好会traP](https://trap.jp/post/1175/)
 
 ### 関連資料
 - [プロトコルの形式的安全性検証ツールProVerif / proverif - Speaker Deck](https://speakerdeck.com/tex2e/proverif)
