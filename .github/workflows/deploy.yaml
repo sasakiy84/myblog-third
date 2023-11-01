@@ -30,7 +30,7 @@ jobs:
 
       - uses: actions/setup-python@v4
         with:
-          python-version: 3.x
+          python-version: 3.11.x
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
 
       - run: pip install -r requirements.lock
