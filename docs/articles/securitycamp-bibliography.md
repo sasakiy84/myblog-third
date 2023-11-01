@@ -77,6 +77,7 @@ tags:
 - [セキュリティ・キャンプ全国大会2023 参加記 - 虹溜まり](https://kowerkoint.hatenablog.com/entry/2023/08/15/163859)
 - [セキュリティ・ネクストキャンプを修了しました - xryuseix’s diary progress](https://xryuseix.hatenablog.com/entry/2023/08/16/235909)
 - [セキュリティ・ネクストキャンプ2023 応募課題晒し - xryuseix’s diary progress](https://xryuseix.hatenablog.com/entry/2023/08/19/164914)
+- [セキュリティ・キャンプ 2023に参加しました](https://zenn.dev/ikepe/articles/01f1c7e5a9f1ee)
 
 ### 関連資料
 - [セキュリティキャンプ2023 Y3分散合意ゼミ 最終発表 - Speaker Deck](https://speakerdeck.com/shinbunbun_/sekiyuriteikiyanpu2023-y3fen-san-he-yi-zemi-zui-zhong-fa-biao)
