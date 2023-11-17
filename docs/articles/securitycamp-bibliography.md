@@ -31,9 +31,15 @@ tags:
 - [セキュリティキャンプ全国大会卒業者の応募用紙の情報が集まる魔法のスプレッドシート2017 - Google スプレッドシート](https://docs.google.com/spreadsheets/d/1mcanYZU0518XpOqy-ikkWOPfOODOD76zwAiwNkZCngc/edit#gid=0)
 - [seccamp.jp](https://seccamp.jp/)
 
-# 2023 山梨
+## 2023 北海道
+### 参加ブログ
+- [セキュリティ・ミニキャンプ in 北海道 2023 参加記 - RiSTのブログ](https://rist.hatenablog.jp/entry/2023/11/15/170621)
+- [セキュリティ・ミニキャンプに参加しました！ - kozyonikkiのブログ](https://kozyonikki.hatenablog.com/entry/2023/11/17/083000)
+
+## 2023 山梨
 ### 参加ブログ
 - [セキュリティ・ミニキャンプ in 山梨 2023 参加記 - hatomato09’s blog](https://hatomato09.hatenablog.com/entry/2023/09/26/104541)
+- [セキュリティ・ミニキャンプ in 山梨 2023 に講師として参加してきました | NTTセキュリティテクニカルブログ](https://jp.security.ntt/tech_blog/seccamp-yamanashi-2023)
 
 ## 2023 新潟
 ### 講義資料
