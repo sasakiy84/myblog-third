@@ -5,34 +5,73 @@
 #   pre: false
 #   features: []
 #   all-features: false
+#   with-sources: false
+#   generate-hashes: false
+#   universal: false
 
 -e file:.
 babel==2.12.1
+    # via mkdocs-blogging-plugin
 certifi==2023.5.7
+    # via requests
 charset-normalizer==3.1.0
+    # via requests
 click==8.1.3
+    # via mkdocs
 colorama==0.4.6
+    # via mkdocs-material
 ghp-import==2.1.0
+    # via mkdocs
 gitdb==4.0.10
+    # via gitpython
 gitpython==3.1.31
+    # via mkdocs-blogging-plugin
 idna==3.4
+    # via requests
 jinja2==3.1.2
+    # via mkdocs
+    # via mkdocs-blogging-plugin
+    # via mkdocs-material
 markdown==3.3.7
+    # via mkdocs
+    # via mkdocs-material
+    # via pymdown-extensions
 markupsafe==2.1.3
+    # via jinja2
 mergedeep==1.3.4
+    # via mkdocs
 mkdocs==1.4.3
+    # via mkdocs-blogging-plugin
+    # via mkdocs-material
 mkdocs-blogging-plugin==2.2.9
+    # via myblog-third
 mkdocs-material==9.1.17
+    # via myblog-third
 mkdocs-material-extensions==1.1.1
+    # via mkdocs-material
 packaging==23.1
+    # via mkdocs
 pygments==2.15.1
+    # via mkdocs-material
 pymdown-extensions==10.0.1
+    # via mkdocs-material
 python-dateutil==2.8.2
+    # via ghp-import
 pyyaml==6.0
+    # via mkdocs
+    # via pymdown-extensions
+    # via pyyaml-env-tag
 pyyaml-env-tag==0.1
+    # via mkdocs
 regex==2023.6.3
+    # via mkdocs-material
 requests==2.31.0
+    # via mkdocs-material
 six==1.16.0
+    # via python-dateutil
 smmap==5.0.0
+    # via gitdb
 urllib3==2.0.3
+    # via requests
 watchdog==3.0.0
+    # via mkdocs
