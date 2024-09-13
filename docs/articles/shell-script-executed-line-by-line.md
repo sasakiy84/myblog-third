@@ -72,11 +72,11 @@ the target dir is
 1. シェルスクリプトを使わない
 2. シェルスクリプトを使う場合は、エラーが発生した場合に実行を止める設定を記述する。具体的には、`set -e` を記述する。
 3. シェルスクリプトの実行中に inode を維持したままでファイルを更新するようなことをしない。
-   - たとえば、`vim` コマンドは inode を変更するため、上記のようなことは起こらない
+    - たとえば、`vim` コマンドは inode を変更するため、上記のようなことは起こらない
 4. 変数を使うときは、シェルスクリプトの変数展開機能をフル活用する
-   - たとえば、次のようにすることでデフォルト値を設定できる `echo "the target dir is ${NEW_TARGET_DIR:-DefaultDir}"`
-   - あるいは、次のようにすることで変数の存在チェックができる `echo "the target dir is ${NEW_TARGET_DIR:?Variable is not set or null}"`
-   - [bash の man ページ](https://man7.org/linux/man-pages/man1/bash.1.html)の `Parameter Expansion` の項目を参照
+    - たとえば、次のようにすることでデフォルト値を設定できる `echo "the target dir is ${NEW_TARGET_DIR:-DefaultDir}"`
+    - あるいは、次のようにすることで変数の存在チェックができる `echo "the target dir is ${NEW_TARGET_DIR:?Variable is not set or null}"`
+    - [bash の man ページ](https://man7.org/linux/man-pages/man1/bash.1.html)の `Parameter Expansion` の項目を参照
 
 # 現実の事例
 京大のスーパーコンピューターの納入会社が、シェルスクリプトを不用意に更新したことによって、データが消失したという事例がある。
