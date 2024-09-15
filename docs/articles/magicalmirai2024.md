@@ -6,6 +6,7 @@ createdAt: 2024-09-14
 updatedAt: 2024-09-14
 tags:
   - Vocaloid
+  - EventReport
 ---
 
 # 概要
