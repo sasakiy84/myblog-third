@@ -1,5 +1,5 @@
 ---
-title: Google Cloud text-to-speech で音声ファイルを生成する deno スクリプト
+title: Google Cloud text-to-speech で音声ファイルを生成する Deno スクリプト
 description: Google Cloud の text-to-speech を使って、テキストを音声に変換するスクリプト
 date: 2024-09-15
 createdAt: 2024-09-15
@@ -33,7 +33,7 @@ Google Cloud の text-to-speech を使って、テキストを音声に変換す
 Text-to-Speech API は、[コンソール画面](https://console.cloud.google.com/speech/text-to-speech) から短い文書を変換することができる。
 しかし、長い文書を変換する場合は、人間が文書を細かく分割して、それぞれの音声ファイルをダウンロードする必要がある。
 
-この作業を自動化するために、deno でスクリプトを書いた。
+この作業を自動化するために、Deno でスクリプトを書いた。
 
 # 使い方
 [README](https://github.com/sasakiy84/gcloud-text2speech-converter-deno) に従ってセットアップを行い、以下のように実行する。
