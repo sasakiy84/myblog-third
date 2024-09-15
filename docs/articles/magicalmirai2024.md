@@ -2,8 +2,8 @@
 title: マジカルミライ 2024 TOKYO に参加したので、来年のためにメモを残す
 description: マジカルミライ 2024 TOKYO に参加したので、混雑状況など来年に役立ちそうな情報をメモしておく。
 date: 2024-09-14
-createdAt: 2023-09-14
-updatedAt: 2022-09-14
+createdAt: 2024-09-14
+updatedAt: 2024-09-14
 tags:
   - Vocaloid
 ---
