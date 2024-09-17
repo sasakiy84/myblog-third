@@ -154,8 +154,22 @@ self.addEventListener("fetch", (event) => {
 });
 ```
 
+これを実行すると、
+
+```
+- Fetch -
+service-worker-test.js:14 accept: */*
+service-worker-test.js:14 authorization: Bearer 1234567890
+service-worker-test.js:14 sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+service-worker-test.js:14 sec-ch-ua-mobile: ?0
+service-worker-test.js:14 sec-ch-ua-platform: "macOS"
+service-worker-test.js:14 user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+```
+
+が表示されるし、普通に example.com にリクエストを送れている。
+
 そのため、認証情報は Cookie を用いたほうが安全である。
-一方で、Cookie を使う場合は　Same Site 属性まわりに気を付ける必要がある。Same Site 属性まわりは現在さまざまな議論が定期的に行われているため、最新の情報を確認すること。
+一方で、Cookie を使う場合は　Same Site 属性まわりに気を付ける必要がある（おそらく `SameSite=None` を指定する必要がある？）。Same Site 属性まわりは現在さまざまな議論が定期的に行われているため、最新の情報を確認すること。
 
 ## Same Origin Policy により Fetch API で取得した情報の中身を見れない
 自身が管理しているサイトへの通信ならば、CORS ヘッダーを適切に指定することで対応できる。
