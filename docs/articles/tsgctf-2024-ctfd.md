@@ -21,7 +21,7 @@ Google Cloud で CTFd を構築したときのメモと、メトリクスの記�
 完成図としては、上のような状態を目指す。なお、以下の点に注意する。
 
 - **バックエンドの CTFd を2台にするとログインエラーの不具合が発生したため、今回実際には強いインスタンスを一つ立てて、LB の通信をすべてそこに流した。**これはおそらく CTFd の secret を明示的に指定していなかったために発生した不具合なので、次回は環境変数でそれを設定すれば、問題なく動くと思われる
-- 同じネットワーク内に問題サーバーや問題のヘルスチェックサーバーや Discord との連携アプリが動いている。CTFd をたてるとき、これらは直接関係ないため、今回の図からは省いている
+- また、他のネットワークで問題サーバーや問題のヘルスチェックサーバーなどが動いている。CTFd をたてるとき、これらは直接関係ないため、今回の図からは省いている
     - CTFd は手伝ってもらいつつ私がメインで担当しましたが、他のサーバーは他の人が担当していました
     - 問題サーバーと異なり普通のウェブサービスなので、CTF 特有のセキュリティ考慮などはしてない（本当なら、問題サーバーとネットワークを別にしたほうがよさそうだけど）
 - リハーサル環境において oauth2proxy をたてる場合は、CTFd の docker-compose のサイドカーとして、それぞれのインスタンスの内部に oauth2proxy を立てた
@@ -210,7 +210,7 @@ provider = "github"
 client_id = "id"
 client_secret = "secret"
 
-redirect_url = "https://rehearsal.ctf.tsg.ne.jp/oauth2/callback"
+redirect_url = "https://to-rehearsal-domain-of.tsg.ne.jp/oauth2/callback"
 
 cookie_secret = "cookiesecret"
 github_org = "tsg-ut"
