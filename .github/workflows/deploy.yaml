@@ -28,7 +28,7 @@ jobs:
           python-version: 3.13.x
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
 
-      - run: pip install -r requirements.lock
+      - run: pip install .
       - name: build
         run: mkdocs build
 
