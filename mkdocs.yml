@@ -29,13 +29,13 @@ theme:
   palette:
     schema: slate
     primary: white
-  extra:
-    analytics:
-      provider: google
-      property: G-FPY99RM67V
-    search:
-      language: "jp"
+  search:
+    language: "jp"
 
+extra:
+  analytics:
+    provider: google
+    property: G-FPY99RM67V
   extra_javascript:
     - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js
     - javascripts/highlights.js
