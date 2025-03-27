@@ -18,7 +18,7 @@ tags:
 
 ## 全体構成図
 
-![blog architecture](/img/blog-architecture.png)
+![blog architecture](../img/blog-architecture.png)
 
 S3 からすべてのファイルを配信する形式。記事の全件を取得する API なども、ビルド時に事前に生成しておいた json ファイルを使う。
 CI/CD は GitHub Actions を使い、master ブランチに push されれば自動でデプロイするようにした。

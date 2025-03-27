@@ -62,7 +62,7 @@ tags:
 [https://www.slideshare.net/miyajan/github-actions-250042631](https://www.slideshare.net/miyajan/github-actions-250042631)
 
 また、↓の図は、インターン生へのタスク説明のために社員の方が作ってくださった図です。
-![](/img/cybozu-intern-2022_20220928150952.png)  
+![](../img/cybozu-intern-2022_20220928150952.png)  
 
 まず、GitHub Actions とは、GitHub が提供する CI / CD サービスで、リポジトリへの push や merge などのアクションと、テストの実行やデプロイなどのジョブを手軽に連携できます。
 クラウドで提供されていて、ほかにツールを使わなくても、yml ファイルをリポジトリにおけば CI / CD が手軽に実行できて便利です。
@@ -113,7 +113,7 @@ staging / production ともにバージョン更新を適用したあとのこ�
 
 ↓は、実際にランナーの数が増えている図です。
 staging では、2 つの GitHub Organization を運用していたので、その Organization のインスタンスが増加している様子がわかります。
-![](/img/cybozu-intern-2022_20220928151235.png)  
+![](../img/cybozu-intern-2022_20220928151235.png)  
 
 ということで、障害対応が始まりました。
 

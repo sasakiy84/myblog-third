@@ -49,7 +49,7 @@ https://vuejs.org/guide/extras/web-components.html
 https://lit.dev/
 
 実際に本番環境でも運用されている事例があるようです。たとえば、youtube のソースを見ると、web component が使われています
-![](/img/my-second-blog-created_20230305135801.png)
+![](../img/my-second-blog-created_20230305135801.png)
 
 また、zenn などでも一部 web component を利用しているようです。
 https://zenn.dev/steelydylan/articles/zenn-web-components
